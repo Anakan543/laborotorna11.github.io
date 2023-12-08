@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Лабороторна робота №11</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+  </head>
+  <body>
+<div class="question">
+  <div id="arrowLeft">
+    <p class="rofl"><</p>
+  </div>
+  <p class="textQuestion" id = "textQuestion">Натисніть кнопку, щоб почати</p>
+  <div id="arrowRight">
+    <p class="rofl">></p>
+  </div>
+</div>
+
+<p class="checked">Назад <span id ="checkedNumber">0</span>/10 Далі</p>
+    <form class="form">
+    <input class="input" type="text" name="text" placeholder="Write correct answer" id="text">
+    <button type="button" name="button" id="button">Перевірити</button>
+    </form>
+    <div class="stat">
+      <p class="textStat">Статистика</p>
+      <p id="correct">Вірно <span id="win">0</span></p>
+      <p id="miss">Неправильно <span id="loss">0</span></p>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
